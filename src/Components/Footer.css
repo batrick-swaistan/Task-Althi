@@ -1,0 +1,316 @@
+.footer-container {
+  height: 400px;
+  background-color: black;
+  color: white;
+}
+
+.icon {
+  background-color: aliceblue;
+  color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.coln {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.coln:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
+
+.social-cont {
+  font-family: sans-serif;
+}
+
+.form .p-inputtext:enabled:focus {
+  box-shadow: none;
+  border-color: none;
+}
+
+.form .p-inputtext {
+  font-size: 14px;
+  color: white;
+  background: transparent;
+  padding: 6px;
+  border: 1px solid #d1d5db;
+  transition: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+.form-main .p-inputtext {
+  font-size: 14px;
+  color: white;
+  background: transparent;
+  padding: 6px;
+  border: 1px solid #d1d5db;
+  transition: none;
+  appearance: none;
+  border-radius: 0 !important;
+}
+
+.form-main .p-inputtext:enabled:focus {
+  box-shadow: none;
+  border-color: none;
+}
+
+.btn .p-button:focus {
+  box-shadow: none;
+}
+
+.btn .p-button {
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid white;
+  padding: 6px;
+  font-size: 14px;
+  transition: none;
+  border-radius: 0;
+}
+
+.angle-ico {
+  height: 100%;
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    height: 700px;
+  }
+  .footer-start {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .footer-start h3 {
+    font-size: 16px;
+  }
+  .footer-start p {
+    font-size: 14px;
+  }
+  .footer-one {
+    width: 320px !important;
+  }
+  .footer-two {
+    width: 320px !important;
+  }
+  .footer-three {
+    width: 320px !important;
+  }
+
+  .coln {
+    padding: 3px;
+  }
+
+  .pi-instagram:before {
+    font-size: 14px;
+  }
+  .pi-twitter:before {
+    font-size: 14px;
+  }
+  .pi-github:before {
+    font-size: 14px;
+  }
+  .pi-linkedin:before {
+    font-size: 14px;
+  }
+  .pi-facebook:before {
+    font-size: 14px;
+  }
+  .pi-globe:before {
+    font-size: 14px;
+  }
+  .pi-phone:before {
+    font-size: 14px;
+  }
+  .pi-envelope:before {
+    font-size: 14px;
+  }
+  .social-cont {
+    font-size: 14px;
+  }
+
+  .form-main .p-inputtext {
+    font-size: 12px;
+  }
+  .form .p-inputtext {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .footer-container {
+    height: 700px;
+  }
+  .footer-start {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .footer-start h3 {
+    font-size: 18px;
+  }
+  .footer-start p {
+    font-size: 15px;
+  }
+  .footer-one {
+    width: 480px !important;
+  }
+  .footer-two {
+    width: 480px !important;
+  }
+  .footer-three {
+    width: 480px !important;
+  }
+
+  .coln {
+    padding: 4px;
+  }
+
+  .pi-instagram:before {
+    font-size: 14px;
+  }
+  .pi-twitter:before {
+    font-size: 14px;
+  }
+  .pi-github:before {
+    font-size: 14px;
+  }
+  .pi-linkedin:before {
+    font-size: 14px;
+  }
+  .pi-facebook:before {
+    font-size: 14px;
+  }
+  .pi-globe:before {
+    font-size: 14px;
+  }
+  .pi-phone:before {
+    font-size: 14px;
+  }
+  .pi-envelope:before {
+    font-size: 14px;
+  }
+  .social-cont {
+    font-size: 15px;
+  }
+
+  .form .p-inputtext {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer-start h3 {
+    font-size: 16px;
+  }
+  .footer-start p {
+    font-size: 13px;
+  }
+  .footer-one {
+    width: 180px !important;
+  }
+  .footer-two {
+    width: 150px !important;
+  }
+  .footer-three {
+    width: 200px !important;
+  }
+
+  .coln {
+    padding: 4px;
+  }
+
+  .pi-instagram:before {
+    font-size: 14px;
+  }
+  .pi-twitter:before {
+    font-size: 14px;
+  }
+  .pi-github:before {
+    font-size: 14px;
+  }
+  .pi-linkedin:before {
+    font-size: 14px;
+  }
+  .pi-facebook:before {
+    font-size: 14px;
+  }
+  .pi-globe:before {
+    font-size: 14px;
+  }
+  .pi-phone:before {
+    font-size: 14px;
+  }
+  .pi-envelope:before {
+    font-size: 14px;
+  }
+  .social-cont {
+    font-size: 13px;
+  }
+
+  .form .p-inputtext {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .footer-start h3 {
+    font-size: 18px;
+  }
+  .footer-start p {
+    font-size: 14px;
+  }
+  .footer-one {
+    width: 250px !important ;
+  }
+  .footer-two {
+    width: 180px !important ;
+  }
+  .footer-three {
+    width: 250px !important;
+  }
+
+  .coln {
+    padding: 6px;
+  }
+
+  .pi-instagram:before {
+    font-size: 15px;
+  }
+  .pi-twitter:before {
+    font-size: 15px;
+  }
+  .pi-github:before {
+    font-size: 15px;
+  }
+  .pi-linkedin:before {
+    font-size: 15px;
+  }
+  .pi-facebook:before {
+    font-size: 15px;
+  }
+  .pi-globe:before {
+    font-size: 15px;
+  }
+  .pi-phone:before {
+    font-size: 15px;
+  }
+  .pi-envelope:before {
+    font-size: 15px;
+  }
+  .social-cont {
+    font-size: 15px;
+  }
+
+  .form .p-inputtext {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,138 @@
+.about-container {
+  width: 100%;
+  overflow: hidden;
+}
+.img-grid {
+  width: 450px;
+}
+
+.first-row {
+  width: 100%;
+}
+
+.first-row-main {
+  background-color: #609af8;
+}
+
+.first-row-cont {
+  width: 450px;
+}
+
+.first-row-cont-main {
+  color: white;
+}
+
+.about-main {
+  border-bottom: 2px solid white;
+}
+
+.about {
+  border-bottom: 2px solid black;
+}
+
+.sec-row {
+  width: 100%;
+}
+.sec-row-main {
+  background-color: blanchedalmond;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-content {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .about-start-one-first {
+    display: flex;
+    flex-direction: column;
+    background-color: #609af8 !important;
+    row-gap: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .about-start-one-middle {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: blanchedalmond;
+    row-gap: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .about-start-one {
+    display: flex;
+    flex-direction: column;
+    background-color: #609af8 !important;
+    row-gap: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .first-row {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+  }
+
+  .sec-row {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    padding-left: 0;
+  }
+  .first-row-cont {
+    width: 320px;
+  }
+  .img-grid {
+    width: 320px;
+  }
+
+  .sec-row-main {
+    background-color: #609af8;
+  }
+
+  .heading-about-one {
+    font-size: 18px;
+  }
+
+  .first-row-cont p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .img-grid {
+    width: 240px;
+  }
+  .first-row-cont {
+    width: 240px;
+  }
+  .first-row-cont-main h1,
+  p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .img-grid {
+    width: 289px;
+  }
+  .first-row-cont {
+    width: 289px;
+  }
+  .first-row-cont-main h1,
+  p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .img-grid {
+    width: 364px;
+  }
+  .first-row-cont {
+    width: 364px;
+  }
+  .heading-about-one p {
+    font-size: 14px;
+  }
+}
